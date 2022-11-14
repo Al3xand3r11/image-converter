@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Dragndrop from './components/Dragndrop';
 import './App.css';
 
 function App() {
@@ -7,6 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
       </header>
+      <div>
+        <Dragndrop />
+      </div>
     </div>
   );
 }
