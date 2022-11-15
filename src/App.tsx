@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       </header>
-      <div>
+      <div className='Box'>
         <Dragndrop />
       </div>
     </div>

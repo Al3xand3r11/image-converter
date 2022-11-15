@@ -1,5 +1,5 @@
 import  React from 'react'
-
+import Picture from '../images/filepic.png'
 import {useDropzone} from 'react-dropzone'
 
 
@@ -9,8 +9,9 @@ const Dragndrop = () => {
     <div>
     <div {...getRootProps()} className = "test">
         <input{...getInputProps()}/>
-        <p>Test</p>
-
+        <p>
+        <img src={Picture} alt=""/>
+        </p>
     </div>
     </div>
   )
