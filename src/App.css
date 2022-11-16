@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: linear-gradient(to right, green , purple);
+  background-image: linear-gradient(to right, white , pink);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
